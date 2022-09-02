@@ -1,0 +1,86 @@
+.image {
+    width: 13rem;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #5395d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+section {
+    width: 65%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.6rem;
+    padding: 1rem;
+}
+
+div {
+    padding-bottom: 2rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+h2 {
+    margin: 0;
+    padding-bottom: 1rem;
+}
+p {
+    color: #589cdb;
+    border-bottom: 1px rgba(128, 128, 128, 0.1) solid;
+    border-top: 1px rgba(128, 128, 128, 0.1) solid;
+    padding: 1rem;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 700;
+}
+
+p:first-of-type {
+    border-bottom: 0;
+}
+
+article {
+    padding: 1rem;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0d63b3;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    width: 50%;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 0.5rem;
+    background-color: #7abfff;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: white;
+    color: #7abfff;
+    border: 2px solid #7abfff;
+}
+
+.paid {
+    border-left: 1px rgba(128, 128, 128, 0.1) solid;
+    border-right: 1px rgba(128, 128, 128, 0.1) solid;
+}

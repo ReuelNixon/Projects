@@ -1,0 +1,13 @@
+img {
+    width: 30%;
+    margin: 1.666%;
+}
+nav {
+    font-size: 100%;
+    margin-left: 1.666%;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    border-bottom: 0.5px solid black;
+    padding: 1% 0;
+    width: 30%;
+}
